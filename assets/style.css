@@ -3,9 +3,10 @@ body {
     height: 100%;
 }
 
+
 #backOne {
     /* The image used */
-    background-image: url("images/background.jpg");
+    background-image: url("images/coolBlue.jpg");
     /* Set a specific height */
     height: 100%;
     /* width: 100%;  */
@@ -33,13 +34,38 @@ body {
     -webkit-background-size: cover;
 }
 
+#backThree {
+    /* The image used */
+    background-image: url("images/coolBlue.jpg");
+    /* Set a specific height */
+    height: 100%;
+    /* width: 100%;  */
+    margin: 0;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
 .contOne {
     background-color: #fff;
     border: 1%;
     padding: 3%;
     margin: auto;
-    margin-top: 5%;
+    margin-top:10%;
+    flex: wrap;
+    flex-wrap: auto;
+}
+/* 
+#rowOne {
+    margin-top: 25%;
+    background-color: #fff;
+    border: 1%;
+    padding: 3%;
+    margin: auto;
     flex: wrap;
     flex-wrap: auto;
     margin-bottom: 5%;
-}
+} */
