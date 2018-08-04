@@ -75,11 +75,17 @@ body {
 /* portfolio text */
 #portText {
     color:white;
-    margin-top: 5%;
+    margin-top: 3%;
 
 }
 .portImg {
-    margin: 5%;
+    border: 1%;
+    padding: 10px;
+    margin-top:10%;
+    flex: wrap;
+    flex-wrap: auto;
+    margin-bottom: 5%;
+    overflow: none;
 }
 /* -------------------------------------- */
 
