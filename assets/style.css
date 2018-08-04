@@ -59,17 +59,6 @@ body {
     overflow: none;
 }
 
-/* 
-#rowOne {
-    margin-top: 25%;
-    background-color: #fff;
-    border: 1%;
-    padding: 3%;
-    margin: auto;
-    flex: wrap;
-    flex-wrap: auto;
-    margin-bottom: 5%;
-} */
 
 .footer, .push {
     position: fixed;
@@ -85,4 +74,9 @@ body {
 #copy{
     color: black;
     text-align: center;
+}
+
+.imgSmall {
+    width: 350px;
+    height: auto;
 }
