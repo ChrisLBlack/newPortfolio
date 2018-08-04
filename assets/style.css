@@ -1,11 +1,12 @@
 html,
 body {
     height: 100%;
+    background-image: url("images/coolBlue.jpg")
 }
 /* first section */
 #backOne {
     /* The image used */
-    background-image: url("images/coolBlue.jpg");
+    /* background-image: url("images/coolBlue.jpg"); */
     /* Set a specific height */
     height: 100%;
     /* width: 100%;  */
@@ -22,7 +23,7 @@ body {
     /* The image used */
     background-image: url("images/blue.jpg");
     /* Set a specific height */
-    height: 35%;
+    height: 45%;
     /* width: 100%;  */
     margin: 0;
     /* Create the parallax scrolling effect */
@@ -35,7 +36,7 @@ body {
 /* third section */
 #backThree {
     /* The image used */
-    background-image: url("images/coolBlue.jpg");
+    /* background-image: url("images/coolBlue.jpg"); */
     /* Set a specific height */
     height: 75%;
     /* width: 100%;  */
@@ -63,13 +64,22 @@ body {
 
 /* resizes images on portfolio */
 .imgSmall {
-    width: 300px;
+    width: 310px;
     height: auto;
 }
 /* spaces images */
 .col-4-lg {
     padding: 0;
     margin: 3%;
+}
+/* portfolio text */
+#portText {
+    color:white;
+    margin-top: 5%;
+
+}
+.portImg {
+    margin: 5%;
 }
 /* -------------------------------------- */
 
