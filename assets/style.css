@@ -2,7 +2,7 @@ html,
 body {
     height: 100%;
 }
-
+/* first section */
 #backOne {
     /* The image used */
     background-image: url("images/coolBlue.jpg");
@@ -17,12 +17,12 @@ body {
     background-size: cover;
     -webkit-background-size: cover;
 }
-
+/* second section */
 #backTwo {
     /* The image used */
     background-image: url("images/blue.jpg");
     /* Set a specific height */
-    height: 75%;
+    height: 35%;
     /* width: 100%;  */
     margin: 0;
     /* Create the parallax scrolling effect */
@@ -32,7 +32,7 @@ body {
     background-size: cover;
     -webkit-background-size: cover;
 }
-
+/* third section */
 #backThree {
     /* The image used */
     background-image: url("images/coolBlue.jpg");
@@ -48,6 +48,7 @@ body {
     -webkit-background-size: cover;
 }
 
+/* first div with about me content */
 .contOne{
     background-color: #fff;
     border: 1%;
@@ -60,6 +61,19 @@ body {
 }
 
 
+/* resizes images on portfolio */
+.imgSmall {
+    width: 300px;
+    height: auto;
+}
+/* spaces images */
+.col-4-lg {
+    padding: 0;
+    margin: 3%;
+}
+/* -------------------------------------- */
+
+/* keeps footer stuck to bottom of page */
 .footer, .push {
     position: fixed;
     bottom: 0;
@@ -70,13 +84,9 @@ body {
     margin: auto;
     clear: both;
 }
-
+/* only for text in footer */
 #copy{
     color: black;
     text-align: center;
 }
-
-.imgSmall {
-    width: 350px;
-    height: auto;
-}
+/* end footer code */
